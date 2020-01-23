@@ -1,6 +1,8 @@
 # Compilers
 
-## IBM xlc/C
+## IBM XL C/C++ and Fortran
+
+The native or vendor-supplied compiler for Traverse are the IBM xlc/C/f
 
 Below is an example build of FFTW:
 
