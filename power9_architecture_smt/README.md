@@ -11,7 +11,7 @@ Laboratory or because the application to be run can take particular advantage of
 the <a href="https://www.nvidia.com/en-us/data-center/nvlink/">NVLink</a> architecture. Programs that move a lot of
 data in or out of the GPU should see an especially large speed up.
 
-### SMT
+### Simultaneous Multithreading (SMT)
 
 ```
 $ snodes | head
@@ -26,6 +26,8 @@ traverse-k01g resv     128  2:16:4   0/128/0/128     1.73     250000   gpu:tesl 
 traverse-k01g resv     128  2:16:4   0/128/0/128     1.74     250000   gpu:tesl all*               (null)
 traverse-k01g alloc    128  2:16:4   128/0/0/128     0.02     250000   gpu:tesl all*               (null)
 ```
+
+More information:
 
 ```
 $ lscpu
