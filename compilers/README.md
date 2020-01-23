@@ -12,9 +12,6 @@ wget ftp://ftp.fftw.org/pub/fftw/fftw-${version_fftw}.tar.gz
 tar -zxvf fftw-${version_fftw}.tar.gz
 cd fftw-${version_fftw}
 
-module purge
-module load rh/devtoolset/8
-
 ./configure CC=xlc CFLAGS="-Ofast -qarch=pwr9 -qtune=pwr9 -mvsx -DNDEBUG" --prefix=$HOME/.local \
 --enable-shared --enable-single --enable-vsx --disable-fortran
 
@@ -25,3 +22,8 @@ make install
 ## PGI
 
 Portland Group, Inc. was takenover by NVIDIA in 20XX. OpenACC
+
+
+## GCC
+
+GCC is the GNU Compiler Collection.
