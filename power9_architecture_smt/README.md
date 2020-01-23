@@ -55,7 +55,7 @@ NUMA node254 CPU(s):
 NUMA node255 CPU(s):   
 ```
 
-Operation system:
+Operating system:
 
 ```
 $ cat /etc/os-release
@@ -77,3 +77,6 @@ REDHAT_BUGZILLA_PRODUCT_VERSION=7.6
 REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux"
 REDHAT_SUPPORT_PRODUCT_VERSION="7.6"
 ```
+
+While Traverse uses RHEL, the HPC clusters at Princeton use Springdale Linux. In most cases the
+distinction is immaterial.
