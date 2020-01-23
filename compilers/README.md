@@ -28,6 +28,19 @@ Portland Group, Inc. was takenover by NVIDIA in 20XX. OpenACC
 
 GCC is the GNU Compiler Collection.
 
+```
+$ g++ --version
+g++ (GCC) 4.8.5 20150623 (Red Hat 4.8.5-39)
+```
+
+```
+$ module load rh/devtoolset/8
+$ g++ --version
+g++ (GCC) 8.3.1 20190311 (Red Hat 8.3.1-3)
+```
+
+After loading the `rh` module the C/C++ and Fortran compilers and related tools are also updated.
+
 ## Notes
 
 The Intel compiler is not compatible with POWER9.
