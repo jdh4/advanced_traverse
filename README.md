@@ -16,3 +16,15 @@ This guide shows how to take advantage of the advanced features of Traverse incl
 - GPU-enabled IBM Engineering and Scientific Subroutine Library (ESSL)
 - IBM xlc/C and PGI compilers
 - NVMe storage
+
+## Workshop Survey
+
+After the workshop please complete [this survey](https://forms.gle/wJsovb7nw8nCJbop9).
+
+## Getting Help
+
+If you encounter any difficulties with the material in this guide then please send an email to <a href="mailto:cses@princeton.edu">cses@princeton.edu</a> or attend a <a href="https://researchcomputing.princeton.edu/education/help-sessions">help session</a>.
+
+## Authorship
+
+This guide was created by Jonathan Halverson, Stéphane Ethier and members of Princeton Research Computing.
