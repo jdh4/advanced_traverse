@@ -27,3 +27,7 @@ Portland Group, Inc. was takenover by NVIDIA in 20XX. OpenACC
 ## GCC
 
 GCC is the GNU Compiler Collection.
+
+## Notes
+
+The Intel compiler is not compatible with POWER9.
