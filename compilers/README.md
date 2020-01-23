@@ -2,7 +2,7 @@
 
 ## IBM XL C/C++ and Fortran
 
-The native or vendor-supplied compiler for Traverse are the IBM xlc/C/f
+The native or vendor-supplied compiler for Traverse are the IBM xlc/C/f. In general, there are performance advantages to using the vendor compiler suite.
 
 Below is an example build of FFTW:
 
