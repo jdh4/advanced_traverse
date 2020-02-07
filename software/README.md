@@ -1,7 +1,7 @@
 # Software
 
 ```bash
-$ ma
+$ module avail
 
 ------------------------------------- /usr/share/Modules/modulefiles --------------------------------------
 at12.0      dot         module-git  module-info modules     null        use.own
@@ -31,3 +31,7 @@ hdf5/gcc/openmpi-3.1.4/1.10.5          openmpi/pgi-19.9/4.0.3rc1/64
 ------------------------------------- /opt/share/Modules/modulefiles --------------------------------------
 git/2.18        pgi/19.5/64     pgi/19.9/64     rh/devtoolset/6 rh/devtoolset/7 rh/devtoolset/8
 ```
+
+### Import Notes
+
+Use the `openmpi/devtoolset-8` modules when working with Fortran mod files.
