@@ -4,6 +4,12 @@
 
 The native or vendor-supplied compiler for Traverse are the IBM xlc/C/f. In general, there are performance advantages to using the vendor compiler suite.
 
+```
+$ xlc --help
+$ xlc --help
+# nothing for xlf
+```
+
 Below is an example build of FFTW:
 
 ```
