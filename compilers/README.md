@@ -21,6 +21,8 @@ make -j 10
 make install
 ```
 
+ppcle64 - PowerPC little endian 64-bit (memory model)
+
 [Code Optimization with IBM XL Compilers](https://www-01.ibm.com/support/docview.wss?uid=swg27005174&aid=1)
 
 ```
