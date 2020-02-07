@@ -32,7 +32,7 @@ Version: 16.01.0001.0003
 /opt/ibm/xlC/16.1.1/bin/.orig/xlc: note: XL C/C++ Community Edition is a no-charge product and does not include official IBM support. You can provide feedback at the XL on POWER C/C++ Community Edition forum (http://ibm.biz/xlcpp-linux-ce). For information about a fully supported XL C/C++ compiler, visit XL C/C++ for Linux (http://ibm.biz/xlcpp-linux).
 ```
 
-All roads lead to `xlf`:
+All roads lead to `xlf` -- it calls /usr/bin then /etc/alternatives then /opt/ibm:
 
 ```
 -rwxr-xr-x. 1 root root 764K Apr  4  2019 xlf
