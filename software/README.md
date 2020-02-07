@@ -34,4 +34,5 @@ git/2.18        pgi/19.5/64     pgi/19.9/64     rh/devtoolset/6 rh/devtoolset/7 
 
 ### Import Notes
 
-Use the `openmpi/devtoolset-8` modules when working with Fortran mod files.
+Use the `openmpi/devtoolset-8` modules when working with Fortran mod files. Mod files are intermediate files during Fortran
+compilations.
