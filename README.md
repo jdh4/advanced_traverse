@@ -14,7 +14,7 @@ This guide shows how to take advantage of the advanced features of Traverse incl
 - VSX vectorization
 - Simultaneous Multithreading (SMT)
 - GPU-enabled IBM Engineering and Scientific Subroutine Library (ESSL)
-- IBM xlc/C and PGI compilers
+- IBM XL and PGI compilers
 - NVMe storage
 
 ## Workshop Survey
