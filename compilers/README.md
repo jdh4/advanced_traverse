@@ -21,6 +21,15 @@ make -j 10
 make install
 ```
 
+[Code Optimization with IBM XL Compilers](https://www-01.ibm.com/support/docview.wss?uid=swg27005174&aid=1)
+
+```
+$ xlc --version
+IBM XL C/C++ for Linux, V16.1.1 (Community Edition)
+Version: 16.01.0001.0003
+/opt/ibm/xlC/16.1.1/bin/.orig/xlc: note: XL C/C++ Community Edition is a no-charge product and does not include official IBM support. You can provide feedback at the XL on POWER C/C++ Community Edition forum (http://ibm.biz/xlcpp-linux-ce). For information about a fully supported XL C/C++ compiler, visit XL C/C++ for Linux (http://ibm.biz/xlcpp-linux).
+```
+
 ## PGI
 
 Portland Group, Inc. was takenover by NVIDIA in 20XX. OpenACC
