@@ -37,6 +37,10 @@ git/2.18        pgi/19.5/64     pgi/19.9/64     rh/devtoolset/6 rh/devtoolset/7 
 Use the `openmpi/devtoolset-8` modules when working with Fortran mod files. Mod files are intermediate files during Fortran
 compilations.
 
+## CUDAToolkit
+
+Note that `libcublas.so` is now in `/usr/lib64` as of version 10.1.
+
 ## PETSc
 
 XL compilers don't work. ESSL cannot be used.
