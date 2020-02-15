@@ -32,7 +32,25 @@ hdf5/gcc/openmpi-3.1.4/1.10.5          openmpi/pgi-19.9/4.0.3rc1/64
 git/2.18        pgi/19.5/64     pgi/19.9/64     rh/devtoolset/6 rh/devtoolset/7 rh/devtoolset/8
 ```
 
-### Import Notes
+## Import Notes
 
 Use the `openmpi/devtoolset-8` modules when working with Fortran mod files. Mod files are intermediate files during Fortran
 compilations.
+
+## PETSc
+
+XL compilers don't work. ESSL cannot be used.
+
+## GROMACS
+
+d
+
+##
+
+To see how an Open MPI module was built:
+
+```
+$ module load openmpi/devtoolset-8/4.0.3rc1/64
+$ ompi_info
+```
+
