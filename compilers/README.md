@@ -147,6 +147,13 @@ $ time ./a.out
 real	1m3.029s
 user	1m3.030s
 sys	0m0.000s
+
+$ gcc -Ofast -mcpu=native -mtune=native -maltivec abc.c
+$ time ./a.out
+
+real	0m15.593s
+user	0m15.590s
+sys	0m0.000s
 ```
 
 ## Notes
