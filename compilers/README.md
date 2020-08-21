@@ -84,6 +84,24 @@ g++ (GCC) 8.3.1 20190311 (Red Hat 8.3.1-3)
 
 After loading the `rh` module the C/C++ and Fortran compilers and related tools are also updated.
 
+```
+$ gcc -Ofast -mcpu=power9 -mtune=power9 abc.c 
+$ time ./a.out 
+40.950000
+
+real	0m15.576s
+user	0m15.573s
+sys	0m0.000s
+
+$ gcc -Ofast -mcpu=power9 -mtune=power9 -mvsx abc.c 
+$ time ./a.out 
+40.950000
+
+real	0m15.582s
+user	0m15.579s
+sys	0m0.001s
+```
+
 ## Notes
 
 The Intel compiler is not compatible with POWER9.
