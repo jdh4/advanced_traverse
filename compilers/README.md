@@ -7,7 +7,7 @@ The native or vendor-supplied compiler for Traverse are the IBM xlc/C/f. In gene
 ```
 $ xlc -qhelp
 $ xlC -qhelp
-# no help page for xlf
+# xlf -qhelp
 ```
 
 Below is an example build of FFTW:
