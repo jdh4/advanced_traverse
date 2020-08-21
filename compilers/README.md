@@ -135,8 +135,7 @@ user	0m59.462s
 sys	0m0.000s
 
 $ xlc -Ofast -qarch=pwr9 -qtune=pwr9 -mvsx abc.c 
-$ time ./a.out 
-40.950000
+$ time ./a.out
 
 real	0m59.463s
 user	0m59.463s
