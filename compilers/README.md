@@ -102,6 +102,22 @@ $ time ./a.out
 real	0m15.582s
 user	0m15.579s
 sys	0m0.001s
+
+gcc -Ofast -mcpu=native -mtune=native -mvsx abc.c 
+$ time ./a.out 
+40.950000
+
+real	0m15.592s
+user	0m15.590s
+sys	0m0.000s 
+
+$ gcc -O2 -g abc.c 
+$ time ./a.out 
+40.950000
+
+real	0m36.145s
+user	0m36.145s
+sys	0m0.000s
 ```
 
 ## Notes
