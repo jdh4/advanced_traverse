@@ -87,9 +87,22 @@ After loading the `rh` module the C/C++ and Fortran compilers and related tools 
 ```
 $ module load rh/devtoolset/8
 
+$ gcc -O2 -g abc.c 
+$ time ./a.out 
+
+real	0m36.145s
+user	0m36.145s
+sys	0m0.000s
+
+$ gcc -Ofast abc.c 
+[jdh4@traverse steve_vectorization]$ time ./a.out 
+
+real	0m15.666s
+user	0m15.660s
+sys	0m0.000s
+
 $ gcc -Ofast -mcpu=power9 -mtune=power9 abc.c 
 $ time ./a.out 
-40.950000
 
 real	0m15.576s
 user	0m15.573s
@@ -97,7 +110,6 @@ sys	0m0.000s
 
 $ gcc -Ofast -mcpu=power9 -mtune=power9 -mvsx abc.c 
 $ time ./a.out 
-40.950000
 
 real	0m15.582s
 user	0m15.579s
@@ -105,19 +117,10 @@ sys	0m0.001s
 
 gcc -Ofast -mcpu=native -mtune=native -mvsx abc.c 
 $ time ./a.out 
-40.950000
 
 real	0m15.592s
 user	0m15.590s
 sys	0m0.000s 
-
-$ gcc -O2 -g abc.c 
-$ time ./a.out 
-40.950000
-
-real	0m36.145s
-user	0m36.145s
-sys	0m0.000s
 ```
 
 ## Notes
