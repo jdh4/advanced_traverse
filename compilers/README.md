@@ -126,6 +126,23 @@ $ gcc -Ofast -march=power9 abc.c
 gcc: error: unrecognized command line option ‘-march=power9’; did you mean ‘-mcpu=power9’?
 ```
 
+```
+$ xlc -Ofast abc.c 
+$ time ./a.out
+
+real	0m59.467s
+user	0m59.462s
+sys	0m0.000s
+
+$ xlc -Ofast -qarch=pwr9 -qtune=pwr9 -mvsx abc.c 
+$ time ./a.out 
+40.950000
+
+real	0m59.463s
+user	0m59.463s
+sys	0m0.000s
+```
+
 ## Notes
 
 The Intel compiler is not compatible with POWER9.
