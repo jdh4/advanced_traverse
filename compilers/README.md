@@ -85,6 +85,8 @@ g++ (GCC) 8.3.1 20190311 (Red Hat 8.3.1-3)
 After loading the `rh` module the C/C++ and Fortran compilers and related tools are also updated.
 
 ```
+$ module load rh/devtoolset/8
+
 $ gcc -Ofast -mcpu=power9 -mtune=power9 abc.c 
 $ time ./a.out 
 40.950000
