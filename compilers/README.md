@@ -140,6 +140,13 @@ $ time ./a.out
 real	0m59.463s
 user	0m59.463s
 sys	0m0.000s
+
+$ xlc -O3 -qarch=pwr9 -qtune=pwr9 -qsimd=auto abc.c
+$ time ./a.out
+
+real	1m3.029s
+user	1m3.030s
+sys	0m0.000s
 ```
 
 ## Notes
