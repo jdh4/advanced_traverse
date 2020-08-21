@@ -120,7 +120,10 @@ $ time ./a.out
 
 real	0m15.592s
 user	0m15.590s
-sys	0m0.000s 
+sys	0m0.000s
+
+$ gcc -Ofast -march=power9 abc.c
+gcc: error: unrecognized command line option ‘-march=power9’; did you mean ‘-mcpu=power9’?
 ```
 
 ## Notes
