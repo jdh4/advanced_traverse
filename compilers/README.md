@@ -95,7 +95,7 @@ user	0m36.145s
 sys	0m0.000s
 
 $ gcc -Ofast abc.c 
-[jdh4@traverse steve_vectorization]$ time ./a.out 
+$ time ./a.out 
 
 real	0m15.666s
 user	0m15.660s
