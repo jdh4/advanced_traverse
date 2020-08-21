@@ -31,6 +31,9 @@ ppcle64 - PowerPC little endian 64-bit (memory model)
 
 [Code Optimization with IBM XL Compilers](https://www-01.ibm.com/support/docview.wss?uid=swg27005174&aid=1)
 
+This guide says: "VMX and VSX machine
+instructions can execute up to sixteen operations in parallel."
+
 ```
 $ xlc --version
 IBM XL C/C++ for Linux, V16.1.1 (Community Edition)
