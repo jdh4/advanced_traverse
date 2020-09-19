@@ -1,4 +1,4 @@
-# Head node
+# Head Node
 
 The head node `traverse.princeton.edu` can be used for compiling codes and running short test jobs. Two V100 GPUs are available on the head node. Make sure that you do not use more than 10% of the machine (cores and memory) for more than 10 minutes at a time since it is shared by all users.
 
