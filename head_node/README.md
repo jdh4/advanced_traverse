@@ -4,7 +4,7 @@ The head node `traverse.princeton.edu` can be used for compiling codes and runni
 
 ## Jupyter Notebooks
 
-Follow the directions under "Running on Tigressdata" on [this page](https://researchcomputing.princeton.edu/jupyter). Be sure to replace `tigressdata` with `traverse`.
+Follow the directions under "Running on Tigressdata" on [this page](https://researchcomputing.princeton.edu/jupyter#tigressdata). Be sure to replace `tigressdata` with `traverse`.
 
 If using a VPN is not an option then use the directions under "Avoiding Using a VPN from Off-Campus". Once again be sure to replace `tigressdata` with `traverse`.
 
