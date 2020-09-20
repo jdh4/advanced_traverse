@@ -2,6 +2,12 @@
 
 ## IBM XL C/C++ and Fortran
 
+Community Edition
+
+See the link: [https://www.ibm.com/us-en/marketplace/xl-cpp-linux-compiler-power](this page)
+
+See [this video](https://www.youtube.com/watch?v=p6-pfj3tCmY) for an overview of version 16.1.1 for Linux.
+
 The native or vendor-supplied compiler for Traverse are the IBM xlc/C/f. In general, there are performance advantages to using the vendor compiler suite.
 
 ```
