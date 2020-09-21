@@ -162,7 +162,7 @@ $ ls -lL /usr/lib64/*essl*.so
 -rw-r--r--. 1 bin bin 46826939 Mar 29  2018 /usr/lib64/libessl.so
 ```
 
-The full installation is here: `/opt/ibmmath/essl/6.1`. The functionality that can run on GPUs is listed on [this page](https://www.ibm.com/support/knowledgecenter/SSFHY8_6.1/reference/am5gr_cuda.html).
+The full installation is here: `/opt/ibmmath/essl/6.1`. The functionality that can run on GPUs using `libesslsmpcuda.so` is listed on [this page](https://www.ibm.com/support/knowledgecenter/SSFHY8_6.1/reference/am5gr_cuda.html).
 
 ### PETSc
 
