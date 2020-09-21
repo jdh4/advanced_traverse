@@ -140,13 +140,21 @@ MAGMA appears to not support CUDA 11 (10/13/2020).
 
 ![essl](http://www.myiconfinder.com/uploads/iconsets/256-256-4be5cdae8f0f7b1d9c011b27d82107c5-ibm.png)
 
-[ESSL](https://www.ibm.com/support/knowledgecenter/en/SSFHY8_6.1/navigation/welcome.html) is a linear algebra library.
+[ESSL](https://www.ibm.com/support/knowledgecenter/en/SSFHY8_6.1/navigation/welcome.html) is a numerical library for linear algebra,
+eigensystem analysis, Fourier transforms, convolutions and correlations, sorting and searching, interpolation, numerical quadrature and random number generation
 
 Pronounced like the two letters "SL".
 
 This is analogous to Intel Math Kernel Library (MKL).
 
+The header files and libraries (symbolic links) are here:
+
 ```
+$ ls -lL /usr/include/*essl*
+-rw-r--r--. 1 bin bin 171727 Feb 24  2018 /usr/include/essl.h
+-rw-r--r--. 1 bin bin   4187 Jun  3  2016 /usr/include/essl_lapacke_config.h
+-rw-r--r--. 1 bin bin  64882 Jan 16  2018 /usr/include/essl_lapacke.h
+
 $ ls -lL /usr/lib64/*essl*.so
 -rw-r--r--. 1 bin bin 45719787 Mar 29  2018 /usr/lib64/libessl6464.so
 -rw-r--r--. 1 bin bin 53379191 Mar 29  2018 /usr/lib64/libesslsmp6464.so
@@ -154,6 +162,8 @@ $ ls -lL /usr/lib64/*essl*.so
 -rw-r--r--. 1 bin bin 53925425 Mar 29  2018 /usr/lib64/libesslsmp.so
 -rw-r--r--. 1 bin bin 46826939 Mar 29  2018 /usr/lib64/libessl.so
 ```
+
+The full installation is here: `/opt/ibmmath/essl/6.1`
 
 ### PETSc
 
