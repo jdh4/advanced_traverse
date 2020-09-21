@@ -14,6 +14,30 @@ $ module avail cudnn
 cudnn/cuda-9.2/7.6.1  cudnn/cuda-10.0/7.6.1  cudnn/cuda-10.1/7.6.1  cudnn/cuda-11.0/8.0.1 
 ```
 
+To see how the module changes the environment:
+
+```
+$ module show cudatoolkit/11.0 
+-------------------------------------------------------------------
+/usr/local/share/Modules/modulefiles/cudatoolkit/11.0:
+
+module-whatis   {Sets up cudatoolkit110 11.0 in your environment}
+prepend-path    PATH /usr/local/cuda-11.0/bin
+prepend-path    LD_LIBRARY_PATH /usr/local/cuda-11.0/lib64
+prepend-path    LIBRARY_PATH /usr/local/cuda-11.0/lib64
+prepend-path    MANPATH /usr/local/cuda-11.0/doc/man
+append-path     -d { } LDFLAGS -L/usr/local/cuda-11.0/lib64
+append-path     -d { } INCLUDE -I/usr/local/cuda-11.0/include
+append-path     CPATH /usr/local/cuda-11.0/include
+append-path     -d { } FFLAGS -I/usr/local/cuda-11.0/include
+append-path     -d { } LOCAL_LDFLAGS -L/usr/local/cuda-11.0/lib64
+append-path     -d { } LOCAL_INCLUDE -I/usr/local/cuda-11.0/include
+append-path     -d { } LOCAL_CFLAGS -I/usr/local/cuda-11.0/include
+append-path     -d { } LOCAL_FFLAGS -I/usr/local/cuda-11.0/include
+append-path     -d { } LOCAL_CXXFLAGS -I/usr/local/cuda-11.0/include
+-------------------------------------------------------------------
+```
+
 The GPU-accelerated libraries are listed below:
 
 ```
