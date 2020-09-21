@@ -117,7 +117,7 @@ drwxr-xr-x. 2 root root       43 Sep 14 15:27 crt
 
 ![magma](http://icl.cs.utk.edu/projectsfiles/magma/doxygen/magma-logo.png)
 
-[Magma](https://icl.utk.edu/magma/) is a linear algebra library that is designed for multicore nodes that have GPUs. It can be thought of as an improvement over LAPACK for such nodes. MAGMA is capable of using the TensorCores of the V100 GPUs of Traverse.
+[Magma](https://icl.utk.edu/magma/) is a linear algebra library that is designed for multicore nodes that have GPUs. It can be thought of as an improvement over LAPACK for such nodes. MAGMA is capable of using the [Tensor Cores](https://www.nvidia.com/en-us/data-center/tensor-cores/) of the V100 GPUs of Traverse.
 
 Here is a sample build of MAGMA on Traverse:
 
@@ -136,37 +136,23 @@ $ make install prefix=$HOME/software/magma
 
 MAGMA appears to not support CUDA 11 (10/13/2020).
 
-## IBM Engineering and Scientific Library (ESSL)
+## IBM Engineering and Scientific Subroutine Library (ESSL)
 
 ![essl](http://www.myiconfinder.com/uploads/iconsets/256-256-4be5cdae8f0f7b1d9c011b27d82107c5-ibm.png)
+
+
 
 Pronounced like the two letters "SL".
 
 This is analogous to Intel Math Kernel Library (MKL).
 
-Does work with gromacs.
-
-Does not work with PETSc.
-
-### Where is ESSL on Traverse?
-
 ```
-$ ls -lL /lib64/*essl*
--rw-r--r--. 1 bin bin 45719787 Mar 29  2018 /lib64/libessl6464.so
--rw-r--r--. 1 bin bin 45719787 Mar 29  2018 /lib64/libessl6464.so.1
--rw-r--r--. 1 bin bin 45719787 Mar 29  2018 /lib64/libessl6464.so.1.10
--rw-r--r--. 1 bin bin 53379191 Mar 29  2018 /lib64/libesslsmp6464.so
--rw-r--r--. 1 bin bin 53379191 Mar 29  2018 /lib64/libesslsmp6464.so.1
--rw-r--r--. 1 bin bin 53379191 Mar 29  2018 /lib64/libesslsmp6464.so.1.10
--rw-r--r--. 1 bin bin 54737430 Mar 29  2018 /lib64/libesslsmpcuda.so
--rw-r--r--. 1 bin bin 54737430 Mar 29  2018 /lib64/libesslsmpcuda.so.1
--rw-r--r--. 1 bin bin 54737430 Mar 29  2018 /lib64/libesslsmpcuda.so.1.10
--rw-r--r--. 1 bin bin 53925425 Mar 29  2018 /lib64/libesslsmp.so
--rw-r--r--. 1 bin bin 53925425 Mar 29  2018 /lib64/libesslsmp.so.1
--rw-r--r--. 1 bin bin 53925425 Mar 29  2018 /lib64/libesslsmp.so.1.10
--rw-r--r--. 1 bin bin 46826939 Mar 29  2018 /lib64/libessl.so
--rw-r--r--. 1 bin bin 46826939 Mar 29  2018 /lib64/libessl.so.1
--rw-r--r--. 1 bin bin 46826939 Mar 29  2018 /lib64/libessl.so.1.10
+$ ls -lL /usr/lib64/*essl*.so
+-rw-r--r--. 1 bin bin 45719787 Mar 29  2018 /usr/lib64/libessl6464.so
+-rw-r--r--. 1 bin bin 53379191 Mar 29  2018 /usr/lib64/libesslsmp6464.so
+-rw-r--r--. 1 bin bin 54737430 Mar 29  2018 /usr/lib64/libesslsmpcuda.so
+-rw-r--r--. 1 bin bin 53925425 Mar 29  2018 /usr/lib64/libesslsmp.so
+-rw-r--r--. 1 bin bin 46826939 Mar 29  2018 /usr/lib64/libessl.so
 ```
 
 ### PETSc
