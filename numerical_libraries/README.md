@@ -140,10 +140,9 @@ MAGMA appears to not support CUDA 11 (10/13/2020).
 
 ![essl](http://www.myiconfinder.com/uploads/iconsets/256-256-4be5cdae8f0f7b1d9c011b27d82107c5-ibm.png)
 
-[ESSL](https://www.ibm.com/support/knowledgecenter/en/SSFHY8_6.1/navigation/welcome.html) is a numerical library for linear algebra,
-eigensystem analysis, Fourier transforms, convolutions and correlations, sorting and searching, interpolation, numerical quadrature and random number generation
+[ESSL](https://www.ibm.com/support/knowledgecenter/en/SSFHY8_6.1/navigation/welcome.html) (pronounced like the two letters "sl") is a numerical library for linear algebra, eigensystem analysis, Fourier transforms, convolutions and correlations, sorting and searching, interpolation, numerical quadrature and random number generation. With respect to its linear algebra routines, ESSL is not a full implementation of BLAS/LAPACK.
 
-Pronounced like the two letters "SL".
+
 
 This is analogous to Intel Math Kernel Library (MKL).
 
