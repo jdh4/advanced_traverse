@@ -2,7 +2,7 @@
 
 ## NVIDIA GPU-Accelerated Libraries
 
-![nvidia](https://i.pcmag.com/imagery/articles/06X3ryHmZnWM9hpXRC5o9Ku-1.fit_scale.size_1700x956.v1591799608.jpg)
+![nvidia](https://static.nvidiagrid.net/ngc/containers/cuda-logo-light.png)
 
 To see the available modules:
 
