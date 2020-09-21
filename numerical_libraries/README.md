@@ -16,7 +16,7 @@ $ module avail cudnn
 cudnn/cuda-9.2/7.6.1  cudnn/cuda-10.0/7.6.1  cudnn/cuda-10.1/7.6.1  cudnn/cuda-11.0/8.0.1 
 ```
 
-To see how the module changes the environment:
+To see how the [cudatoolkit](https://developer.nvidia.com/cuda-toolkit) module changes the environment:
 
 ```
 $ module show cudatoolkit/11.0 
@@ -78,6 +78,9 @@ $ ls -lL /usr/local/cuda-11.0/lib64/lib*.so
 -rwxr-xr-x.  1 root root     27288 Jun 12 14:02 /usr/local/cuda-11.0/lib64/libOpenCL.so
 ```
 
+See [this page](https://developer.nvidia.com/gpu-accelerated-libraries) for the complete list.
+
+
 Below are the executables of toolkit:
 
 ```
@@ -134,6 +137,8 @@ $ make install prefix=$HOME/software/magma
 MAGMA appears to not support CUDA 11 (10/13/2020).
 
 ## IBM Engineering and Scientific Library (ESSL)
+
+![essl](http://www.myiconfinder.com/uploads/iconsets/256-256-4be5cdae8f0f7b1d9c011b27d82107c5-ibm.png)
 
 Pronounced like the two letters "SL".
 
