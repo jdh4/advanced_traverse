@@ -4,6 +4,13 @@
 
 ## MAGMA
 
+MAGMA is a linear algebra library that is designed for multicore nodes with GPUs. It can be thought of as a replacement to LAPACK.
+
+Here is a sample build of MAGMA on Traverse. It appears to not support CUDA 11 (10/13/2020).
+
+[Magma website](https://icl.utk.edu/magma/)
+[Magam documentation](http://icl.cs.utk.edu/projectsfiles/magma/doxygen/)
+
 ## IBM Engineering and Scientific Library (ESSL)
 
 Pronounced like the two letters "SL".
