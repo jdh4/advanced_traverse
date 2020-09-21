@@ -8,7 +8,7 @@
 
 ![magma](http://icl.cs.utk.edu/projectsfiles/magma/doxygen/magma-logo.png)
 
-[Magma](https://icl.utk.edu/magma/) is a linear algebra library that is designed for multicore nodes that have GPUs. It can be thought of as an improvement over LAPACK for the aforementioned hardware. MAGMA is capable of using the TensorCores of the V100 GPUs of Traverse.
+[Magma](https://icl.utk.edu/magma/) is a linear algebra library that is designed for multicore nodes that have GPUs. It can be thought of as an improvement over LAPACK for such nodes. MAGMA is capable of using the TensorCores of the V100 GPUs of Traverse.
 
 Here is a sample build of MAGMA on Traverse:
 
