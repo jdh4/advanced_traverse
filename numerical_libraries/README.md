@@ -2,6 +2,8 @@
 
 ## NVIDIA GPU-Accelerated Libraries
 
+![nvidia](https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.pcmag.com%2Fimagery%2Farticles%2F06X3ryHmZnWM9hpXRC5o9Ku-1..1591799608.jpg&imgrefurl=https%3A%2F%2Fwww.pcmag.com%2Fnews%2Finitial-specs-leak-for-nvidia-rtx-30803090-founders-edition-graphics-cards&tbnid=yN_qH50IuUwHhM&vet=12ahUKEwipqYepmvnrAhUVpOAKHUkiC-8QMygEegUIARDXAQ..i&docid=rq5Lvvi_TdFRfM&w=1119&h=630&q=nvidia&ved=2ahUKEwipqYepmvnrAhUVpOAKHUkiC-8QMygEegUIARDXAQ)
+
 To see the available modules:
 
 ```
