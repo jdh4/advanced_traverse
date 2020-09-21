@@ -16,6 +16,9 @@ $ tar zxf magma-2.5.3.tar.gz
 $ cd magma-2.5.3
 $ wget <make.inc>
 $ module load cudatoolkit/10.2
+$ export CUDADIR=/usr/local/cuda-10.2
+$ make
+$ make install prefix=$HOME/software/magma
 ```
 
 MAGMA appears to not support CUDA 11 (10/13/2020).
