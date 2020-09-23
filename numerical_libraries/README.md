@@ -119,6 +119,8 @@ drwxr-xr-x. 2 root root       43 Sep 14 15:27 crt
 
 [Magma](https://icl.utk.edu/magma/) is a linear algebra library that is designed for multicore nodes that have GPUs. It can be thought of as an improvement over LAPACK for such nodes. MAGMA is capable of using the [Tensor Cores](https://www.nvidia.com/en-us/data-center/tensor-cores/) of the V100 GPUs of Traverse.
 
+MAGMA is available on Anaconda Cloud from this channel: https://public.dhe.ibm.com/ibmdl/export/pub/software/server/ibm-ai/conda
+
 Here is a sample build of MAGMA on Traverse:
 
 ```
