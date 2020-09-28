@@ -64,11 +64,12 @@ dataset = dset.CIFAR10(root='./', download=True,
                                transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5)),
                            ]))
 ```
-
+11:22,  8 cores, O0 (95467)  
+10:35,  8 cores, O1 (95466)  
 10:15, 16 cores, O0 (95392)  
-09:17, 16 cores, O1 (95391)  
-09:15, 32 cores, 01 (95464)
-11:00, 32 cores, O0 (95463)
+09:17, 16 cores, O1 (95391)    
+11:00, 32 cores, O0 (95463)  
+09:15, 32 cores, 01 (95464)  
 
 ## Other examples where Tensor Cores can be used
 
