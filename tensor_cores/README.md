@@ -9,7 +9,7 @@ training and inference on deep neural networks.
 
 NVIDIA has invested in Tensor Cores in the [A100](https://www.nvidia.com/en-us/data-center/a100).
 
-## Adding NVIDIA Apex to the Environment (V100 only)
+## Example from Deep Learning
 
 The [Apex](https://github.com/nvidia/apex) library allows for [automatic mixed-precision](https://docs.nvidia.com/deeplearning/performance/mixed-precision-training/index.html) (AMP) training and distributed training:
 
