@@ -68,3 +68,5 @@ dataset = dset.CIFAR10(root='./', download=True,
 ## Other examples where Tensor Cores can be used
 
 - MAGMA
+- cuB
+- cuTensor
