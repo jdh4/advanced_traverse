@@ -36,12 +36,12 @@ git/2.18        pgi/19.5/64     pgi/19.9/64     rh/devtoolset/6 rh/devtoolset/7 
 
 Many of the modules on Traverse are in fact only aliases to a native module. An "@" character at the end of the module name indicates an alias. Aliases are automatically substituted for the appropriate native RHEL8 module during loading. For example:
 
-'''
+```
 $ module load openmpi/gcc/3.1.4/64
 $ module list
 Currently Loaded Modulefiles:
  1) openmpi/gcc/4.0.4/64
-'''
+```
 
 There is no good way to explicitly alert the user to these substitutions.
 
