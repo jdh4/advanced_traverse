@@ -52,6 +52,22 @@ compilations.
 
 ## Python
 
+### Anaconda
+
+The Anaconda Python distrubtion ...
+
+#### Python 3
+
+```
+module avail anaconda3
+```
+
+#### Python 2
+
+```
+module load anaconda
+```
+
 ### System
 
 The system Python is available if needed. This can be useful for building codes and other tasks. It should not be used for building isolated environments and running scientific codes.
@@ -74,23 +90,6 @@ Type "help", "copyright", "credits" or "license" for more information.
 ```
 
 In general, for scientific work one wants to use the Anaconda Python distribution which is described next.
-
-### Anaconda
-
-The Anaconda Python distrubtion ...
-
-#### Python 3
-
-```
-module avail anaconda3
-```
-
-#### Python 2
-
-```
-module load anaconda
-```
-
 
 ## CUDAToolkit
 
