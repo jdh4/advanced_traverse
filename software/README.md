@@ -41,7 +41,7 @@ compilations.
 
 ### System
 
-The system Python is available is needed. This can be useful for building codes and other tasks.
+The system Python is available if needed. This can be useful for building codes and other tasks. It should not be used for building isolated environments and running scientific codes.
 
 ```
 $ python
