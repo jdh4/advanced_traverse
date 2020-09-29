@@ -37,6 +37,48 @@ git/2.18        pgi/19.5/64     pgi/19.9/64     rh/devtoolset/6 rh/devtoolset/7 
 Use the `openmpi/devtoolset-8` modules when working with Fortran mod files. Mod files are intermediate files during Fortran
 compilations.
 
+## Python
+
+### System
+
+The system Python is available is needed. This can be useful for building codes and other tasks.
+
+```
+$ python
+-bash: python: command not found
+
+$ python3
+Python 3.6.8 (default, Dec  5 2019, 16:11:43) 
+[GCC 8.3.1 20191121 (Red Hat 8.3.1-5)] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+
+$ python2
+Python 2.7.17 (default, Oct 30 2019, 17:39:41) 
+[GCC 8.3.1 20190507 (Red Hat 8.3.1-4)] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+```
+
+In general, for scientific work one wants to use the Anaconda Python distribution which is described next.
+
+### Anaconda
+
+The Anaconda Python distrubtion ...
+
+#### Python 3
+
+```
+module avail anaconda3
+```
+
+#### Python 2
+
+```
+module load anaconda
+```
+
+
 ## CUDAToolkit
 
 Note that `libcublas.so` is now in `/usr/lib64` as of version 10.1.
