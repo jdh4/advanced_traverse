@@ -13,7 +13,7 @@ data in or out of the GPU should see an especially large speed up.
 
 ![smt-core](http://3s81si1s5ygj3mzby34dq6qf-wpengine.netdna-ssl.com/wp-content/uploads/2016/08/ibm-hot-chips-power9-smt4-core.jpg)
 
-![nvlink](https://www.servethehome.com/wp-content/uploads/2018/03/Gigabyte-G190-G30-Server-NVIDIA-NVLink-Topology.jpg)
+![nvlink](https://images.exxactcorp.com/CMS/technologies/nvidia-solutions/nvidia-nvlink-solutions/tesla-v100-nvlink-gpu-cpu-diagram.png)
 
 ### Simultaneous Multithreading (SMT)
 
