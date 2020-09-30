@@ -11,6 +11,8 @@ Laboratory or because the application to be run can take particular advantage of
 the <a href="https://www.nvidia.com/en-us/data-center/nvlink/">NVLink</a> architecture. Programs that move a lot of
 data in or out of the GPU should see an especially large speed up.
 
+![smt-core](http://3s81si1s5ygj3mzby34dq6qf-wpengine.netdna-ssl.com/wp-content/uploads/2016/08/ibm-hot-chips-power9-smt4-core.jpg)
+
 ### Simultaneous Multithreading (SMT)
 
 ```
