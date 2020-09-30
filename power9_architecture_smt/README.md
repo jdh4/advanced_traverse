@@ -14,17 +14,16 @@ data in or out of the GPU should see an especially large speed up.
 ### Simultaneous Multithreading (SMT)
 
 ```
-$ snodes | head
-HOSTNAMES     STATE    CPUS S:C:T    CPUS(A/I/O/T)   CPU_LOAD MEMORY   GRES     PARTITION          AVAIL_FEATURES
-traverse-k01g alloc    128  2:16:4   128/0/0/128     4.03     250000   gpu:tesl all*               (null)
-traverse-k01g alloc    128  2:16:4   128/0/0/128     4.08     250000   gpu:tesl all*               (null)
-traverse-k01g idle     128  2:16:4   0/128/0/128     0.00     250000   gpu:tesl all*               (null)
-traverse-k01g idle     128  2:16:4   0/128/0/128     0.04     250000   gpu:tesl all*               (null)
-traverse-k01g resv     128  2:16:4   0/128/0/128     1.78     250000   gpu:tesl all*               (null)
-traverse-k01g resv     128  2:16:4   0/128/0/128     1.74     250000   gpu:tesl all*               (null)
-traverse-k01g resv     128  2:16:4   0/128/0/128     1.73     250000   gpu:tesl all*               (null)
-traverse-k01g resv     128  2:16:4   0/128/0/128     1.74     250000   gpu:tesl all*               (null)
-traverse-k01g alloc    128  2:16:4   128/0/0/128     0.02     250000   gpu:tesl all*               (null)
+HOSTNAMES     STATE    CPUS S:C:T    CPUS(A/I/O/T)   CPU_LOAD MEMORY   GRES                                PARTITION          AVAIL_FEATURES
+traverse-k01g alloc    128  2:16:4   128/0/0/128     4.09     250000   gpu:tesla_v100:4(S:0-1)             all*               rh8
+traverse-k01g mix      128  2:16:4   68/60/0/128     71.92    250000   gpu:tesla_v100:4(S:0-1)             all*               rh8
+traverse-k01g mix      128  2:16:4   68/60/0/128     73.42    250000   gpu:tesla_v100:4(S:0-1)             all*               rh8
+traverse-k01g alloc    128  2:16:4   128/0/0/128     46.94    250000   gpu:tesla_v100:4(S:0-1)             all*               rh8
+traverse-k01g alloc    128  2:16:4   128/0/0/128     44.85    250000   gpu:tesla_v100:4(S:0-1)             all*               rh8
+traverse-k01g mix      128  2:16:4   68/60/0/128     72.70    250000   gpu:tesla_v100:4(S:0-1)             all*               rh8
+traverse-k01g mix      128  2:16:4   116/12/0/128    90.92    250000   gpu:tesla_v100:4(S:0-1)             all*               rh8
+traverse-k01g mix      128  2:16:4   16/112/0/128    5.70     250000   gpu:tesla_v100:4(S:0-1)             all*               rh8
+traverse-k01g mix      128  2:16:4   68/60/0/128     71.29    250000   gpu:tesla_v100:4(S:0-1)             all*               rh8
 ```
 
 More information:
