@@ -14,6 +14,7 @@ data in or out of the GPU should see an especially large speed up.
 ### Simultaneous Multithreading (SMT)
 
 ```
+$ snodes | head
 HOSTNAMES     STATE    CPUS S:C:T    CPUS(A/I/O/T)   CPU_LOAD MEMORY   GRES                                PARTITION          AVAIL_FEATURES
 traverse-k01g alloc    128  2:16:4   128/0/0/128     4.09     250000   gpu:tesla_v100:4(S:0-1)             all*               rh8
 traverse-k01g mix      128  2:16:4   68/60/0/128     71.92    250000   gpu:tesla_v100:4(S:0-1)             all*               rh8
