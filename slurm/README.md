@@ -8,7 +8,7 @@ There are four nodes reserved for test jobs of less than 1 hour. To use the test
 #SBATCH --reservation=test
 ```
 
-## Turning SMT
+## Turning Off SMT
 
 Let's say that you want to run a job with 32 MPI processes on Traverse and have each process run on its own physical CPU-core. Here are some approaches for doing this:
 
