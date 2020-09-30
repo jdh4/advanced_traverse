@@ -31,51 +31,50 @@ More information:
 
 ```
 $ lscpu
-Architecture:          ppc64le
-Byte Order:            Little Endian
-CPU(s):                128
-On-line CPU(s) list:   0-127
-Thread(s) per core:    4
-Core(s) per socket:    16
-Socket(s):             2
-NUMA node(s):          6
-Model:                 2.3 (pvr 004e 1203)
-Model name:            POWER9, altivec supported
-CPU max MHz:           3800.0000
-CPU min MHz:           2300.0000
-L1d cache:             32K
-L1i cache:             32K
-L2 cache:              512K
-L3 cache:              10240K
-NUMA node0 CPU(s):     0-63
-NUMA node8 CPU(s):     64-127
-NUMA node252 CPU(s):   
-NUMA node253 CPU(s):   
-NUMA node254 CPU(s):   
-NUMA node255 CPU(s):   
+Architecture:        ppc64le
+Byte Order:          Little Endian
+CPU(s):              128
+On-line CPU(s) list: 0-127
+Thread(s) per core:  4
+Core(s) per socket:  16
+Socket(s):           2
+NUMA node(s):        6
+Model:               2.3 (pvr 004e 1203)
+Model name:          POWER9, altivec supported
+CPU max MHz:         3800.0000
+CPU min MHz:         2300.0000
+L1d cache:           32K
+L1i cache:           32K
+L2 cache:            512K
+L3 cache:            10240K
+NUMA node0 CPU(s):   0-63
+NUMA node8 CPU(s):   64-127
+NUMA node252 CPU(s): 
+NUMA node253 CPU(s): 
+NUMA node254 CPU(s): 
+NUMA node255 CPU(s): 
 ```
 
 Operating system:
 
 ```
-$ cat /etc/os-release
-NAME="Red Hat Enterprise Linux Server"
-VERSION="7.6 (Maipo)"
+$ cat /etc/os-release 
+NAME="Red Hat Enterprise Linux"
+VERSION="8.2 (Ootpa)"
 ID="rhel"
 ID_LIKE="fedora"
-VARIANT="Server"
-VARIANT_ID="server"
-VERSION_ID="7.6"
-PRETTY_NAME="Red Hat Enterprise Linux"
+VERSION_ID="8.2"
+PLATFORM_ID="platform:el8"
+PRETTY_NAME="Red Hat Enterprise Linux 8.2 (Ootpa)"
 ANSI_COLOR="0;31"
-CPE_NAME="cpe:/o:redhat:enterprise_linux:7.6:GA:server"
+CPE_NAME="cpe:/o:redhat:enterprise_linux:8.2:GA"
 HOME_URL="https://www.redhat.com/"
 BUG_REPORT_URL="https://bugzilla.redhat.com/"
 
-REDHAT_BUGZILLA_PRODUCT="Red Hat Enterprise Linux 7"
-REDHAT_BUGZILLA_PRODUCT_VERSION=7.6
+REDHAT_BUGZILLA_PRODUCT="Red Hat Enterprise Linux 8"
+REDHAT_BUGZILLA_PRODUCT_VERSION=8.2
 REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux"
-REDHAT_SUPPORT_PRODUCT_VERSION="7.6"
+REDHAT_SUPPORT_PRODUCT_VERSION="8.2"
 ```
 
 While Traverse uses RHEL, the HPC clusters at Princeton use Springdale Linux. In most cases the
