@@ -13,3 +13,7 @@ dd if=/dev/zero of=/scratch/myfile bs=1M count=10
 ## Applications that can utilize the NVMe cards
 
 None.
+
+## Globus
+
+traverse-dtn
