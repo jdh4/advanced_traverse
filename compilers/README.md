@@ -22,7 +22,7 @@ gcc (GCC) 7.3.1 20180303 (Red Hat 7.3.1-5)
 
 ## IBM XL C/C++ and Fortran
 
-We have the community edition (version 16.1.1) of the IBM XL compilers. This version was released in December 2018. While it offers may GPU features, it can only go as high as version 10.1 of CUDA. Users should favor GCC or one of the other compilers over XL. There is a newer, paid version with additional optimizations if the lab wants it.
+We have the community edition (version 16.1.1) of the IBM XL compilers. This version was released in December 2018. While it offers may GPU features, it can only go as high as version 10.1 of CUDA. Users should favor GCC or one of the other compilers over XL. There is a newer, [paid](https://www.ibm.com/us-en/marketplace/xl-cpp-linux-compiler-power/purchase) version with additional optimizations if the lab wants it.
 
 Community Edition
 
