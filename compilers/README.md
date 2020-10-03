@@ -171,7 +171,3 @@ real	0m59.459s
 user	0m59.460s
 sys	0m0.000s
 ```
-
-## Notes
-
-The Intel compiler is not compatible with POWER9.
