@@ -93,6 +93,12 @@ In general, for scientific work one wants to use the Anaconda Python distributio
 
 ## Deep Learning
 
+[https://researchcomputing.princeton.edu/pytorch](https://researchcomputing.princeton.edu/pytorch)
+
+[https://researchcomputing.princeton.edu/tensorflow](https://researchcomputing.princeton.edu/tensorflow)
+
+Use the `conda-early-access` channel when you need a more recent version of PyTorch and TensorFlow than was is available.
+
 ## NVIDIA Rapids
 
 Built based on the Apache Arrow columnar memory format, cuDF is a GPU DataFrame library for loading, joining, aggregating, filtering, and otherwise manipulating data.
