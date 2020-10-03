@@ -19,7 +19,7 @@ data in or out of the GPU should see an especially large speed up.
 
 Read an [article](https://www.princeton.edu/news/2019/10/07/princetons-new-supercomputer-traverse-accelerate-scientific-discovery-fusion) about the debut of Traverse.
 
-ppcle64 is PowerPC little endian 64-bit memory model
+[NVLink](https://www.nvidia.com/en-us/data-center/nvlink/) on Traverse enables fast CPU-to-GPU and GPU-to-GPU data transfers with a peak rate of 75 GB/s per direction.
 
 ## Onramp to Summit
 
