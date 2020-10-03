@@ -22,7 +22,7 @@ $ ldd --version
 ldd (GNU libc) 2.28
 ```
 
-While you should prefer the system version, in some cases it may be necessary to use an earlier version. The `rh/devtoolset/7` environment module exists for this purpose:
+While you should prefer the system version of GCC, in some cases it may be necessary to use an earlier version. The `rh/devtoolset/7` environment module exists for this purpose:
 
 ```
 $ module load rh/devtoolset/7
