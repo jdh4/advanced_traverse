@@ -91,6 +91,31 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 In general, for scientific work one wants to use the Anaconda Python distribution which is described next.
 
+## Deep Learning
+
+## NVIDIA Rapids
+
+Built based on the Apache Arrow columnar memory format, cuDF is a GPU DataFrame library for loading, joining, aggregating, filtering, and otherwise manipulating data.
+
+cuDF provides a pandas-like API that will be familiar to data engineers & data scientists, so they can use it to easily accelerate their workflows without going into the details of CUDA programming.
+
+cuML is a suite of libraries that implement machine learning algorithms and mathematical primitives functions that share compatible APIs with other RAPIDS projects.
+
+cuML enables data scientists, researchers, and software engineers to run traditional tabular ML tasks on GPUs without going into the details of CUDA programming. In most cases, cuML's Python API matches the API from scikit-learn.
+
+[Getting started](https://rapids.ai/start.html)
+
+cuDF and cuML are available on the IBM conda channel. You can make an environment like this:
+
+```
+$ ssh traverse
+$ module load anaconda3
+$ conda create --name rapids-env --channel https://public.dhe.ibm.com/ibmdl/export/pub/software/server/ibm-ai/conda cudf cuml
+# accept the license agreement
+```
+
+There are also dask-based packages available like `dask-cudf` which enble multi-GPU runs.
+
 ## CUDAToolkit
 
 Note that `libcublas.so` is now in `/usr/lib64` as of version 10.1.
@@ -98,10 +123,6 @@ Note that `libcublas.so` is now in `/usr/lib64` as of version 10.1.
 ## PETSc
 
 XL compilers don't work. ESSL cannot be used.
-
-## GROMACS
-
-d
 
 ##
 
@@ -111,4 +132,3 @@ To see how an Open MPI module was built:
 $ module load openmpi/devtoolset-8/4.0.3rc1/64
 $ ompi_info
 ```
-
