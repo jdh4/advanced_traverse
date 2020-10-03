@@ -15,7 +15,13 @@ data in or out of the GPU should see an especially large speed up.
 
 ![nvlink](https://images.exxactcorp.com/CMS/technologies/nvidia-solutions/nvidia-nvlink-solutions/tesla-v100-nvlink-gpu-cpu-diagram.png)
 
+Read an [article](https://www.princeton.edu/news/2019/10/07/princetons-new-supercomputer-traverse-accelerate-scientific-discovery-fusion) about the debut of Traverse.
+
 ppcle64 is PowerPC little endian 64-bit memory model
+
+## Onramp to Summit
+
+Summit is 1000 times bigger than Traverse.
 
 ### Simultaneous Multithreading (SMT)
 
