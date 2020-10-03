@@ -18,7 +18,7 @@ GNU Fortran (GCC) 8.3.1 20191121 (Red Hat 8.3.1-5)
 A good starting point for GCC optimization flags on Traverse is:
 
 ```
-$ gcc -Ofast -mcpu=power9 -mtune=power9 -mvsx -o myprog myprog.c
+$ gcc -Ofast -mcpu=power9 -mtune=power9 -mvsx -DNDEBUG -o myprog myprog.c
 ```
 
 Take a look at `man gcc` for more.
@@ -62,26 +62,11 @@ $ xlC -qhelp
 # xlf -qhelp
 ```
 
--Ofast -qarch=pwr9 -qtune=pwr9 -qsimd=auto
-
-Below is an example build of FFTW:
+A good starting point for XL optimization flags on Traverse is:
 
 ```
-#!/bin/bash
-version_fftw=3.3.8
-
-wget ftp://ftp.fftw.org/pub/fftw/fftw-${version_fftw}.tar.gz
-tar -zxvf fftw-${version_fftw}.tar.gz
-cd fftw-${version_fftw}
-
-./configure CC=xlc CFLAGS="-Ofast -qarch=pwr9 -qtune=pwr9 -mvsx -DNDEBUG" --prefix=$HOME/.local \
---enable-shared --enable-single --enable-vsx --disable-fortran
-
-make -j 10
-make install
+$ xlc -Ofast -qarch=pwr9 -qtune=pwr9 -qsimd=auto -DNDEBUG -o myprog myprog.c
 ```
-
-ppcle64 - PowerPC little endian 64-bit (memory model)
 
 [Code Optimization with IBM XL Compilers](https://www-01.ibm.com/support/docview.wss?uid=swg27005174&aid=1)
 
