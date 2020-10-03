@@ -24,4 +24,4 @@ $ module avail map
 
 ## nsight-sys and compute
 
-There is no PowerPC GUI so need to do on local machine.
+There is no PowerPC GUI so need to do on local machine. Available via nvhpc
