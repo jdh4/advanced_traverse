@@ -47,7 +47,7 @@ GNU Fortran (GCC) 7.3.1 20180303 (Red Hat 7.3.1-5)
 
 ## NVIDIA HPC SDK
 
-Preferred for OpenACC GPU programming
+Preferred for OpenACC GPU programming. See the [documentation](https://docs.nvidia.com/hpc-sdk/index.html).
 
 NVIDIA acquired PGI in 2013. See [this page](https://developer.nvidia.com/hpc-sdk).
 OpenACC GPU programming
@@ -58,6 +58,7 @@ $ module avail nvhpc
 nvhpc-nocompiler/20.7  nvhpc/20.7
 ```
 
+Two workshops on GPU programming at Princeton/PPPL.
 
 
 ## PGI
