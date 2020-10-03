@@ -57,9 +57,13 @@ Users should favor GCC or one of the other compilers over XL. A newer, [paid](ht
 To get started:
 
 ```
+$ xlc --version
+IBM XL C/C++ for Linux, V16.1.1 (Community Edition)
+Version: 16.01.0001.0003
+
 $ xlc -qhelp
 $ xlC -qhelp
-# xlf -qhelp
+$ xlf -qhelp
 ```
 
 A good starting point for XL optimization flags on Traverse is:
@@ -70,39 +74,7 @@ $ xlc -Ofast -qarch=pwr9 -qtune=pwr9 -qsimd=auto -DNDEBUG -o myprog myprog.c
 
 [Code Optimization with IBM XL Compilers](https://www-01.ibm.com/support/docview.wss?uid=swg27005174&aid=1)
 
-This guide says: "VMX and VSX machine
-instructions can execute up to sixteen operations in parallel."
-
-```
-$ xlc --version
-IBM XL C/C++ for Linux, V16.1.1 (Community Edition)
-Version: 16.01.0001.0003
-/opt/ibm/xlC/16.1.1/bin/.orig/xlc: note: XL C/C++ Community Edition is a no-charge product and does not include official IBM support. You can provide feedback at the XL on POWER C/C++ Community Edition forum (http://ibm.biz/xlcpp-linux-ce). For information about a fully supported XL C/C++ compiler, visit XL C/C++ for Linux (http://ibm.biz/xlcpp-linux).
-```
-
-All roads lead to `xlf` -- it calls /usr/bin then /etc/alternatives then /opt/ibm:
-
-```
--rwxr-xr-x. 1 root root 764K Apr  4  2019 xlf
--rwxr-xr-x. 1 root root 699K Apr  4  2019 minilink
--rwxr-xr-x. 1 root root 700K Apr  4  2019 minicomp
-lrwxrwxrwx. 1 root root    3 Jul  1  2019 fort77 -> xlf
-lrwxrwxrwx. 1 root root    3 Jul  1  2019 f95 -> xlf
-lrwxrwxrwx. 1 root root    3 Jul  1  2019 f90 -> xlf
-lrwxrwxrwx. 1 root root    3 Jul  1  2019 f77 -> xlf
-lrwxrwxrwx. 1 root root    3 Jul  1  2019 f2008 -> xlf
-lrwxrwxrwx. 1 root root    3 Jul  1  2019 f2003 -> xlf
-lrwxrwxrwx. 1 root root    3 Jul  1  2019 xlcuf -> xlf
-lrwxrwxrwx. 1 root root    3 Jul  1  2019 xlf2003 -> xlf
-lrwxrwxrwx. 1 root root    3 Jul  1  2019 xlf_r -> xlf
-lrwxrwxrwx. 1 root root    3 Jul  1  2019 xlf95_r -> xlf
-lrwxrwxrwx. 1 root root    3 Jul  1  2019 xlf95 -> xlf
-lrwxrwxrwx. 1 root root    3 Jul  1  2019 xlf90_r -> xlf
-lrwxrwxrwx. 1 root root    3 Jul  1  2019 xlf90 -> xlf
-lrwxrwxrwx. 1 root root    3 Jul  1  2019 xlf2008_r -> xlf
-lrwxrwxrwx. 1 root root    3 Jul  1  2019 xlf2008 -> xlf
-lrwxrwxrwx. 1 root root    3 Jul  1  2019 xlf2003_r -> xlf
-```
+This guide says: "VMX and VSX machine instructions can execute up to sixteen operations in parallel."
 
 ## PGI
 
