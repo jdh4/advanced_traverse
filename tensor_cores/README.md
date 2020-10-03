@@ -73,6 +73,7 @@ dataset = dset.CIFAR10(root='./', download=True,
 
 ## Other examples where Tensor Cores can be used
 
+- [NVIDIA blog post on using Tenor Cores with Fortran](https://developer.nvidia.com/blog/bringing-tensor-cores-to-standard-fortran/)
 - MAGMA
-- cuB
+- CUB
 - cuTensor
