@@ -18,7 +18,7 @@ GNU Fortran (GCC) 8.3.1 20191121 (Red Hat 8.3.1-5)
 A good starting point for GCC optimization flags on POWER9 is:
 
 ```
-$ gcc -Ofast -mcpu=power9 -mtune=power9 -o myprog myprog.c
+$ gcc -Ofast -mcpu=power9 -mtune=power9 -mvsx -o myprog myprog.c
 ```
 
 Take a look at `man gcc` for more.
