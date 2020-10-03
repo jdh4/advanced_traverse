@@ -47,8 +47,26 @@ GNU Fortran (GCC) 7.3.1 20180303 (Red Hat 7.3.1-5)
 
 ## NVIDIA HPC SDK
 
-NVIDIA acquired PGI in 2013. See [this page](https://developer.nvidia.com/hpc-sdk).
+Preferred for OpenACC GPU programming
 
+NVIDIA acquired PGI in 2013. See [this page](https://developer.nvidia.com/hpc-sdk).
+OpenACC GPU programming
+
+```
+$ module avail nvhpc
+--- /opt/share/Modules/modulefiles ---
+nvhpc-nocompiler/20.7  nvhpc/20.7
+```
+
+
+
+## PGI
+
+```
+$ module avail pgi
+--- /opt/share/Modules/modulefiles ---
+pgi/19.5/64  pgi/19.9/64  pgi/20.4/64
+```
 
 ## IBM XL C/C++ and Fortran
 
