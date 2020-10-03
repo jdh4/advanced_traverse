@@ -7,6 +7,12 @@ The system version of GCC is 8.3.1. For instance:
 ```
 $ gcc --version
 gcc (GCC) 8.3.1 20191121 (Red Hat 8.3.1-5)
+
+$ g++ --version
+g++ (GCC) 8.3.1 20191121 (Red Hat 8.3.1-5)
+
+$ gfortran --version
+GNU Fortran (GCC) 8.3.1 20191121 (Red Hat 8.3.1-5)
 ```
 
 While you should prefer the system version, in some cases it may be necessary to use an earlier version. The `rh/devtoolset/7` environment module exists for this purpose:
