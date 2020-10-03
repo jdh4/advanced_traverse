@@ -45,9 +45,10 @@ $ gfortran --version
 GNU Fortran (GCC) 7.3.1 20180303 (Red Hat 7.3.1-5)
 ```
 
-## PGI
+## NVIDIA HPC SDK
 
-Portland Group, Inc. was takenover by NVIDIA in 20XX. OpenACC
+NVIDIA acquired PGI in 2013. See [this page](https://developer.nvidia.com/hpc-sdk).
+
 
 ## IBM XL C/C++ and Fortran
 
@@ -74,6 +75,10 @@ $ xlc -Ofast -qarch=pwr9 -qtune=pwr9 -qsimd=auto -DNDEBUG -o myprog myprog.c
 ```
 
 For more on optimization see [Code Optimization with IBM XL Compilers](https://www-01.ibm.com/support/docview.wss?uid=swg27005174&aid=1). This guide says: "VMX and VSX machine instructions can execute up to sixteen operations in parallel."
+
+## Intel
+
+The Intel compilers cannot be used on the PowerPC architecture of Traverse.
 
 ## Where is the vectorization?
 
