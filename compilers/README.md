@@ -1,5 +1,22 @@
 # Compilers
 
+## GCC
+
+The system version of GCC is 8.3.1. For instance:
+
+```
+$ gcc --version
+gcc (GCC) 8.3.1 20191121 (Red Hat 8.3.1-5)
+```
+
+While you should prefer the system version, in some cases it may be necessary to use an earlier version. The `rh/devtoolset/7` environment module exists for this purpose:
+
+```
+$ module load rh/devtoolset/7
+$ gcc --version
+gcc (GCC) 7.3.1 20180303 (Red Hat 7.3.1-5)
+```
+
 ## IBM XL C/C++ and Fortran
 
 Community Edition
