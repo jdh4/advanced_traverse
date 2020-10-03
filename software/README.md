@@ -99,6 +99,10 @@ In general, for scientific work one wants to use the Anaconda Python distributio
 
 Use the `conda-early-access` channel when you need a more recent version of PyTorch and TensorFlow than was is available.
 
+Important Conda channels:
+
+Note that `tensorrt` is available as a package.
+
 ## NVIDIA Rapids
 
 Built based on the Apache Arrow columnar memory format, cuDF is a GPU DataFrame library for loading, joining, aggregating, filtering, and otherwise manipulating data.
