@@ -21,6 +21,12 @@ While you should prefer the system version, in some cases it may be necessary to
 $ module load rh/devtoolset/7
 $ gcc --version
 gcc (GCC) 7.3.1 20180303 (Red Hat 7.3.1-5)
+
+$ g++ --version
+g++ (GCC) 7.3.1 20180303 (Red Hat 7.3.1-5)
+
+$ gfortran --version
+GNU Fortran (GCC) 7.3.1 20180303 (Red Hat 7.3.1-5)
 ```
 
 ## PGI
