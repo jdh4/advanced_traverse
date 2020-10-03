@@ -15,6 +15,8 @@ data in or out of the GPU should see an especially large speed up.
 
 ![nvlink](https://images.exxactcorp.com/CMS/technologies/nvidia-solutions/nvidia-nvlink-solutions/tesla-v100-nvlink-gpu-cpu-diagram.png)
 
+ppcle64 is PowerPC little endian 64-bit memory model
+
 ### Simultaneous Multithreading (SMT)
 
 ```
