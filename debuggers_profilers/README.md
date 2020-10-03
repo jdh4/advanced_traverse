@@ -4,6 +4,10 @@
 
 ## GDB
 
+## cuda-gdb
+
+This took is available in the NVIDIA HPC SDK (see `module load nvhpc`).
+
 ## DDT
 
 Not compatible with CUDA 10.1.
