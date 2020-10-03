@@ -15,7 +15,7 @@ $ gfortran --version
 GNU Fortran (GCC) 8.3.1 20191121 (Red Hat 8.3.1-5)
 ```
 
-A good starting point for GCC optimization flags on POWER9 is:
+A good starting point for GCC optimization flags on Traverse is:
 
 ```
 $ gcc -Ofast -mcpu=power9 -mtune=power9 -mvsx -o myprog myprog.c
