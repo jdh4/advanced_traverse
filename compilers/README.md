@@ -15,6 +15,15 @@ $ gfortran --version
 GNU Fortran (GCC) 8.3.1 20191121 (Red Hat 8.3.1-5)
 ```
 
+A good starting point for GCC optimizations flags on POWER9 is:
+
+```
+$ gcc -Ofast -mcpu=power9 -mtune=power9 -o myprog myprog.c
+```
+
+Take a look at `man gcc` for more.
+
+
 The version of glibc is
 
 ```
@@ -41,21 +50,19 @@ GNU Fortran (GCC) 7.3.1 20180303 (Red Hat 7.3.1-5)
 
 ## IBM XL C/C++ and Fortran
 
-We have the community edition (version 16.1.1) of the IBM XL compilers. This version was released in December 2018. While it offers may GPU features, it can only go as high as version 10.1 of CUDA. Users should favor GCC or one of the other compilers over XL. There is a newer, [paid](https://www.ibm.com/us-en/marketplace/xl-cpp-linux-compiler-power/purchase) version with additional optimizations if the lab wants it.
+We have the [community edition](https://www.ibm.com/us-en/marketplace/xl-cpp-linux-compiler-power) (version 16.1.1) of the IBM XL compilers. This version was released in December 2018. While it offers several GPU features, it can only go as high as version 10.1 of CUDA. See [this video](https://www.youtube.com/watch?v=p6-pfj3tCmY) for an overview.
 
-Community Edition
+Users should favor GCC or one of the other compilers over XL. A newer, [paid](https://www.ibm.com/us-en/marketplace/xl-cpp-linux-compiler-power/purchase) version with additional optimizations is available.
 
-See the link: [this page](https://www.ibm.com/us-en/marketplace/xl-cpp-linux-compiler-power)
-
-See [this video](https://www.youtube.com/watch?v=p6-pfj3tCmY) for an overview of version 16.1.1 for Linux.
-
-The native or vendor-supplied compiler for Traverse are the IBM xlc/C/f. In general, there are performance advantages to using the vendor compiler suite.
+To get started:
 
 ```
 $ xlc -qhelp
 $ xlC -qhelp
 # xlf -qhelp
 ```
+
+-Ofast -qarch=pwr9 -qtune=pwr9 -qsimd=auto
 
 Below is an example build of FFTW:
 
