@@ -47,6 +47,7 @@ GNU Fortran (GCC) 7.3.1 20180303 (Red Hat 7.3.1-5)
 
 ## PGI
 
+Portland Group, Inc. was takenover by NVIDIA in 20XX. OpenACC
 
 ## IBM XL C/C++ and Fortran
 
@@ -72,31 +73,9 @@ A good starting point for XL optimization flags on Traverse is:
 $ xlc -Ofast -qarch=pwr9 -qtune=pwr9 -qsimd=auto -DNDEBUG -o myprog myprog.c
 ```
 
-[Code Optimization with IBM XL Compilers](https://www-01.ibm.com/support/docview.wss?uid=swg27005174&aid=1)
+For more on optimization see [Code Optimization with IBM XL Compilers](https://www-01.ibm.com/support/docview.wss?uid=swg27005174&aid=1). This guide says: "VMX and VSX machine instructions can execute up to sixteen operations in parallel."
 
-This guide says: "VMX and VSX machine instructions can execute up to sixteen operations in parallel."
-
-## PGI
-
-Portland Group, Inc. was takenover by NVIDIA in 20XX. OpenACC
-
-
-## GCC
-
-GCC is the GNU Compiler Collection.
-
-```
-$ g++ --version
-g++ (GCC) 4.8.5 20150623 (Red Hat 4.8.5-39)
-```
-
-```
-$ module load rh/devtoolset/8
-$ g++ --version
-g++ (GCC) 8.3.1 20190311 (Red Hat 8.3.1-3)
-```
-
-After loading the `rh` module the C/C++ and Fortran compilers and related tools are also updated.
+## Where is the vectorization?
 
 ```
 $ module load rh/devtoolset/8
